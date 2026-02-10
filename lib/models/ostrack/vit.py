@@ -24,6 +24,7 @@ from collections import OrderedDict
 from copy import deepcopy
 
 import torch
+import torch.fx  # Ensure torch.fx is registered for timm
 import torch.nn as nn
 import torch.nn.functional as F
 
